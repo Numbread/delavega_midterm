@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Surigao City - Events</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<style>
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #0077b6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+	 padding: 8px;
+}
+header h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size:35px;
+  text-align: left;
+   font-weight:bold;
+}
+.header {
+  background-color: #0077b6;
+  color: #F3F3F3;
+  padding: 30px;
+  outline-style: double;
+ outline-color:#5BC0FF;
+  
+}
+header, footer {
+	 background-color: #0077b6;
+    text-align: center;
+    padding: 3rem 0;
+	font-weight: bold;
+	
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+header nav ul li a:hover {
+  text-decoration: #EC2109;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('wallw.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Fixed background */
+    color: #fff; /* Change text color for better visibility */
+}
+
+
+
+
+header nav ul {
+    list-style: none;
+	
+}
+
+header nav ul li {
+    display: inline;
+	font-size: 20px;
+	
+	
+}
+.branding {
+    float: left; /* Align branding to the left */
+}
+
+.branding h1 {
+    margin: 0;
+}
+nav {
+    float: right; /* Align navigation to the right */
+}
+ /* For mobile phones: */
+        [class*="col-"] {
+            width: 100%;
+        }        
+        @media only screen and (min-width: 600px) {
+            /* For tablets: */
+            .col-s-1 {width: 8.33%;}
+            .col-s-2 {width: 16.66%;}
+            .col-s-3 {width: 25%;}
+            .col-s-4 {width: 33.33%;}
+            .col-s-5 {width: 41.66%;}
+            .col-s-6 {width: 50%;}
+            .col-s-7 {width: 58.33%;}
+            .col-s-8 {width: 66.66%;}
+            .col-s-9 {width: 75%;}
+            .col-s-10 {width: 83.33%;}
+            .col-s-11 {width: 91.66%;}
+            .col-s-12 {width: 100%;}
+        }     
+        @media only screen and (min-width: 768px) {
+            /* For desktop: */
+            .col-1 {width: 8.33%;}
+            .col-2 {width: 16.66%;}
+            .col-3 {width: 25%;}
+            .col-4 {width: 33.33%;}
+            .col-5 {width: 41.66%;}
+            .col-6 {width: 50%;}
+            .col-7 {width: 58.33%;}
+            .col-8 {width: 66.66%;}
+            .col-9 {width: 75%;}
+            .col-10 {width: 83.33%;}
+            .col-11 {width: 91.66%;}
+            .col-12 {width: 100%;}
+        }
+		.carousel-inner img {
+    width: 200%;
+}
+* {
+  box-sizing: border-box;
+}
+.branding {
+    float: left; /* Align branding to the left */
+}
+
+.branding h1 {
+    margin: 0;
+}
+.recent-posts table {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+  .container {
+    max-width: 1000px;
+    margin: 45px auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 10px; /* Added grid gap */
+	display: flex;
+     flex-wrap: wrap;
+  }
+  .card {
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px; /* Added padding */
+	
+    margin: 10px;
+    box-sizing: border-box;
+    
+  }
+
+  .card img {
+    width: 850px; /* Fixed width for uniform size */
+    height: 390px; /* Fixed height for uniform size */
+    object-fit: cover; /* Ensures the image fills the container while maintaining its aspect ratio */
+    
+    border-radius: 40px; /* Matches the border radius of the card */
+  }
+
+  .card__title {
+    color: #266803;
+    font-weight: bold;
+    font-size: 1.5em; /* Increased font size */
+    margin-bottom: 10px;
+  }
+.containers {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+	
+}
+  .card__description {
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+  }
+ @media only screen and (min-width: 768px) {
+    /* For tablets and larger devices */
+    .header {
+        padding: 30px;
+    }
+    header h1 {
+        font-size: 35px;
+    }
+    header nav ul li {
+        margin-right: 20px;
+		font-size: 20px
+    }
+    .intro p {
+        font-size: 20px;
+    }
+    .featured .item h2, .featured .item h3 {
+        font-size: 22px;
+    }
+    .container {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    /* For small devices */
+    .header {
+        padding: 15px;
+    }
+    header h1 {
+        font-size: 24px;
+    }
+    header nav ul li {
+        margin-right: 10px;
+		font-size: 15px
+    }
+    .intro p {
+        font-size: 16px;
+    }
+    .featured .item h2, .featured .item h3 {
+        font-size: 16px;
+    }
+    .container {
+        width: 95%;
+    }
+}
+.card img{
+width:100%;
+height:auto
+}
+</style>
+<body>
+
+<header>
+    <div class="header">
+          <h1>‎ ‎ ‎ ‎ Surigao City</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html" class ="activate">About</a></li>
+                <li><a href="iconic.html" class = "activate" >Places</a></li>
+                <li><a href="reviews.html" class = "activate">Events</a></li>
+                <li><a href="contact.html" class = "activate">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<br>
+<br>
+<br>
+<h2 style="text-align: center; margin-top: 20px; font-family: "Times New Roman", Times, serif; ">Festival in Surigao City</h2> <!-- Added title -->
+
+<div class="container">
+  <div class="card">
+    <img src="sto1.jpg" alt="image">
+    <div class="card__content">
+      <p class="card__title">Sto. Niño de Bad-asay Fiesta</p>
+      <p class="card__description">In every first month of the year, January 14, Surigaonons celebrate the Sto. Niño de Bad-asay Fiesta. It’s a celebration for the  
+	  feast of the holy child Jesus Christ. It’s more of like what Cebu City has been celebrating every January. It’s just that Surigaonon celebrate it with more emphasis on
+	  the child instead of the glamorous street dancing and mardi gras from other provinces.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="skay.jpg" alt="image">
+    <div class="card__content">
+      <p class="card__title">Sakay-Sakay Abayan Festival</p>
+      <p class="card__description">A procession at sea in honor of the Patron Saint of Barangay Taft, Virgen de la Paz y Buen Biaje. The patroness of Good Voyage is carried aboard
+	  a beautiful adorned lead vessel followed by colorful motorboats, and bancas passing along the historic Surigao Strait.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="tilaw.jpg" alt="image">
+    <div class="card__content">
+      <p class="card__title">Tilaw Food Festival</p>
+      <p class="card__description">Tilaw means taste. This event showcases the Surigaonon culinary heritage through food fairs and competitions designed to upgrade the city’s food and beverage industry.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="bonok2.jpg" alt="image">
+    <div class="card__content">
+      <p class="card__title">Bonok-Bonok Maradjaw Karadjaw Festival</p>
+      <p class="card__description">Bonok-bonok maradjaw karadjaw festival is an award-winning cultural-religious festival highlighted by a street dance parade depicting the legends and lifestyle of the indigenous Mamanwa Tribes. 
+	  The festival is also a tribute to St. Nicholas, city’s Patron Saint, whose feast is observed on September 10.</p>
+	  </div>
+  </div>
+
+</div>
+
+<footer>
+    <div class="containers">
+        <p>&copy; 2024 Surigao City </p>
+    </div>
+	<!-- Bootstrap CSS and JavaScript -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+</footer>
+
+</body>
+</html>

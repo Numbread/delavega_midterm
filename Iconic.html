@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Surigao City - Places</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<style>
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #0077b6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+	 padding: 8px;
+}
+.containers {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+	 padding: 8px;
+}
+.header {
+  background-color: #0077b6;
+  color: #F3F3F3;
+  padding: 30px;
+  outline-style: double;
+ outline-color:#5BC0FF;
+}
+header, footer {
+	 background-color: #0077b6;
+    text-align: center;
+    padding: 3rem 0;
+	font-weight: bold;
+	
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: #EC2109;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('wallw.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Fixed background */
+    color: #fff; /* Change text color for better visibility */
+}
+
+
+
+
+header nav ul {
+    list-style: none;
+	
+}
+
+header nav ul li {
+    display: inline;
+	font-size: 20px;
+	}
+header h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size:35px;
+  text-align: left;
+   font-weight:bold;
+
+}
+.branding {
+    float: left; /* Align branding to the left */
+}
+
+.branding h1 {
+    margin: 0;
+}
+nav {
+    float: right; /* Align navigation to the right */
+}
+
+       
+		
+		.carousel-inner img {
+    width: 50%;
+}
+.container {
+    max-width: 1000px;
+    margin: 45px auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 10px; /* Added grid gap */
+	display: flex;
+     flex-wrap: wrap;
+  }
+  .card {
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px; /* Added padding */
+	
+    margin: 10px;
+    box-sizing: border-box;
+    
+  }
+
+  .card img {
+    width: 850px; /* Fixed width for uniform size */
+    height: 390px; /* Fixed height for uniform size */
+    object-fit: cover; /* Ensures the image fills the container while maintaining its aspect ratio */
+    
+    border-radius: 40px; /* Matches the border radius of the card */
+  }
+
+  .card__title {
+    color: #266803;
+    font-weight: bold;
+    font-size: 1.5em; /* Increased font size */
+    margin-bottom: 10px;
+  }
+.containers {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+	
+}
+  .card__description {
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+  }
+* {
+  box-sizing: border-box;
+}
+.item col{
+	padding: 10%;
+	margin-bottom: 20px;
+	 margin: 0 auto;
+	 box-sizing: border-box;
+	}
+	.container {
+    display: flex;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+ h2{
+ font-family: "Times New Roman", Times, serif;
+ }
+ @media only screen and (min-width: 768px) {
+    /* For tablets and larger devices */
+    .header {
+        padding: 30px;
+    }
+    header h1 {
+        font-size: 35px;
+    }
+    header nav ul li {
+        margin-right: 20px;
+		font-size: 20px
+    }
+    .intro p {
+        font-size: 20px;
+    }
+    .featured .item h2, .featured .item h3 {
+        font-size: 22px;
+    }
+    .container {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    /* For small devices */
+    .header {
+        padding: 15px;
+    }
+    header h1 {
+        font-size: 24px;
+    }
+    header nav ul li {
+        margin-right: 10px;
+		font-size: 15px
+    }
+    .intro p {
+        font-size: 16px;
+    }
+    .featured .item h2, .featured .item h3 {
+        font-size: 16px;
+    }
+    .container {
+        width: 95%;
+    }
+}
+.card img{
+width:100%;
+height:auto
+}
+
+</style>
+<body>
+
+<header>
+    <div class="header">
+         <h1>‎ ‎ ‎ ‎ Surigao City</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html" class ="activate">About</a></li>
+                <li><a href="iconic.html" class = "activate" >Places</a></li>
+                <li><a href="reviews.html" class = "activate">Events</a></li>
+                <li><a href="contact.html" class = "activate">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<br>
+<br>
+<br>
+
+<h2 style="text-align: center; margin-top: 20px;  ">Places you must visit in Surigao City</h2> <!-- Added title -->
+
+<div class="container">
+  <div class="card">
+    <img src="siargao1.jpg" alt="image">
+    <div class="card__content">
+      <p class="card__title">Siargao Island</p>
+      <p class="card__description">  Siargao Island, nestled in the Philippines, epitomizes a tropical paradise renowned for its multifaceted allure. 
+	  Dubbed the "Surfing Capital of the Philippines," it magnetizes surf enthusiasts worldwide with its iconic Cloud 9, an acclaimed surf break yielding exhilarating waves.
+	  Yet, beyond its surfing prowess, Siargao captivates with its breathtaking natural splendor. Pristine beaches, adorned with powdery
+	  sands and azure waters, beckon visitors to explore its coastal treasures. </p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="mabua3.jpg" alt="image">
+    <div class="card__content">
+      <p class="card__title">Mubua Pebble Beach</p>
+      <p class="card__description">Mubua Pebble Beach, located in Siargao Island, Philippines, is known for its unique and stunning natural beauty. Unlike traditional 
+	  sandy beaches, Mubua features smooth, rounded pebbles that stretch along its shoreline, creating a picturesque and distinctive seascape. The beach provides a unique
+	  coastal experience for visitors to Siargao Island, offering a serene and scenic escape from the hustle and bustle of everyday life. Whether it's to admire the natural 
+	  beauty, relax in the tranquil surroundings, or simply enjoy a quiet moment by the sea, Mubua Pebble Beach promises an unforgettable coastal retreat.
+</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="hago.jpg" alt="image">
+    <div class="card__content">
+      <p class="card__title">Hagonoy Island Beach</p>
+      <p class="card__description">Hagonoy Island Beach, nestled in Siargao Island, Philippines, is celebrated for its untouched natural beauty and serene ambiance. 
+	  Blessed with powdery white sands, crystal-clear waters, and swaying coconut palm trees, Hagonoy Island Beach embodies the epitome of a tropical paradise. 
+	  Visitors can also experience the warmth and hospitality of the local community, as small vendors offer refreshments and local delicacies to beachgoers. 
+	  The laid-back atmosphere and stunning natural scenery make Hagonoy Island Beach a must-visit destination for travelers seeking a tranquil and rejuvenating beach getaway in Siargao Island.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="soho.jpg" alt="image">
+    <div class="card__content">
+      <p class="card__title">Sohoton Cove</p>
+      <p class="card__description">Sohoton Cove are greeted by a breathtaking landscape of towering limestone cliffs draped in lush greenery, surrounded by serene waters teeming with marine life.
+	  The cove's emerald-colored lagoon, often referred to as the "Blue Lagoon," offers a tranquil oasis for swimming, kayaking, and snorkeling amidst stunning natural scenery.
+One of the highlights of Sohoton Cove is the captivating Sohoton Cove National Park, a protected area home to a network of majestic caves, including the famous Hagukan Cave and Magkukuob Cave.
+ Exploring these caves reveals mesmerizing stalactite and stalagmite formations, underground rivers, and hidden lagoons, creating an otherworldly experience for adventurers.</p>
+	  </div>
+  </div>
+
+  <div class="card">
+    <img src="lake.jpg" alt="image">
+    <div class="card__content">
+      <p class="card__title">Lake Mainit</p>
+      <p class="card__description"> Lake Mainit holds the distinction of being the largest lake in Mindanao and the fourth largest in the Philippines by surface area. 
+	  Lake Mainit holds profound cultural significance for the indigenous communities and local inhabitants dwelling in its vicinity. Embedded within their traditions, folklore, 
+	  and livelihoods, the lake embodies a timeless connection to their ancestral heritage, weaving a tapestry of cultural richness that adds depth to its allure.It stands as a symbol of natural
+	  splendor and ecological resilience, cherished for its vastness, biodiversity, cultural resonance, and potential for sustainable progress. As a cherished landmark of Mindanao, it continues 
+	  to inspire awe and reverence among all who are fortunate enough to behold its magnificence.</p>
+	  </div>
+  </div>
+
+  <div class="card">
+    <img src="laswi.jpg" alt="image">
+    <div class="card__content">
+      <p class="card__title">Laswitan Falls and Lagoon</p>
+      <p class="card__description">At the heart of Laswitan lies its namesake attraction, the Laswitan Falls, a cascading waterfall that descends gracefully into a serene lagoon below. 
+	  Unlike traditional waterfalls, Laswitan's allure lies in its distinctive formation, where the water flows over rock formations, creating mesmerizing curtains of cascading water.
+	  Visitors are enchanted by the sight and sound of water gracefully tumbling over the rocks, creating a tranquil ambiance that invites contemplation and appreciation of nature's artistry.
+	   Laswitan holds cultural significance for the local community, who have cherished and preserved the site for generations. Visitors have the opportunity to engage with the friendly locals, 
+	   learn about their traditions and customs, and gain insight into the rich cultural heritage of the region.</p>
+	  </div>
+  </div>
+
+  <div class="card">
+    <img src="sagisi.jpg" alt="image">
+    <div class="card__content">
+      <p class="card__title">Sagisi Island</p>
+      <p class="card__description">One of the most notable features of Sagisi Island is its idyllic beaches, adorned with powdery white sands and fringed by swaying coconut palms. 
+	  Visitors are drawn to the island's tranquil shores, where they can soak up the sun, take leisurely walks along the coastline, or simply unwind in the serenity of the surroundings.
+	  Beyond its natural attractions, Sagisi Island holds cultural significance for the local communities who call it home. Visitors have the opportunity to engage with the friendly locals, 
+	  learn about their traditions and way of life, and savor the warmth of Filipino hospitality.</p>
+	  </div>
+  </div>
+
+  <div class="card">
+    <img src="sanp.jpg" alt="image">
+    <div class="card__content">
+      <p class="card__title">San pedro cantiasay footbridge</p>
+      <p class="card__description">The San Pedro Cantiasay Footbridge, located in the municipality of General Luna on Siargao Island in the Philippines, is a stunning architectural marvel 
+	  and a beloved tourist attraction renowned for its natural beauty and unique design.
+	  Stretching gracefully over the clear turquoise waters of Cantiasay Bay, the footbridge connects the mainland to the nearby Cantiasay Islet, providing locals and visitors alike with access
+	  to the picturesque fishing village nestled on the islet's shores.</p>
+	</div>
+  </div>
+
+  <div class="card">
+    <img src="muse.jpg" alt="image">
+    <div class="card__content">
+      <p class="card__title">Battle of Surigao Strait Museum</p>
+      <p class="card__description">The Battle of Surigao Strait Museum, located in Surigao City, Philippines, commemorates one of the most significant naval battles of World War II that took place
+	  in Surigao Strait on October 24-25, 1944. The museum serves as a poignant reminder of the bravery and sacrifice of those who fought in this historic event.
+      The museum's exhibits chronicle the events leading up to the Battle of Surigao Strait, the strategies employed by the Allied and Japanese forces, and the outcomes
+      of the battle. Visitors can explore artifacts, photographs, documents, and interactive displays that provide insights into the naval warfare tactics, weaponry, and the human stories behind the battle.
+      One of the highlights of the museum is its collection of artifacts recovered from the underwater battlefield, including wreckage from sunken ships, ammunition, and personal belongings of 
+      the sailors who perished during the battle. These artifacts offer a tangible connection to the past and serve as a testament to the courage and sacrifice of the servicemen involved.</p>
+  </div>
+  </div>
+
+  <div class="card">
+    <img src="nana.jpg" alt="image">
+    <div class="card__content">
+      <p class="card__title">Nana's Beach</p>
+      <p class="card__description">Nana's Beach is a pristine coastal haven nestled along the shores of Siargao Island in the Philippines. Renowned for its serene ambiance and natural beauty, 
+	  Nana's Beach offers visitors a tranquil escape from the hustle and bustle of everyday life. Nana's Beach is also a popular destination for water sports enthusiasts, offering opportunities for surfing,
+	  stand-up paddleboarding, and snorkeling. Surrounded by crystal-clear waters teeming with marine life, the beach provides an immersive experience for those eager to explore the underwater world.</p>
+  </div>
+  </div>
+  
+  <div class="card">
+    <img src="basul.jpg" alt="image">
+    <div class="card__content">
+      <p class="card__title">Basul Island</p>
+      <p class="card__description">Basul Island, also known as Basul Parola, is a picturesque island located off the coast of Barangay Basul in the municipality of General Luna on Siargao Island, Philippines.
+	  Renowned for its stunning natural beauty and secluded ambiance, Basul Island is a hidden gem waiting to be explored by adventurous travelers. Basul Island is also celebrated for its pristine beaches,
+	  characterized by powdery white sands and crystal-clear waters. The island's tranquil shores provide an ideal setting for sunbathing, swimming, snorkeling, and beachcombing. The underwater world 
+	  surrounding Basul Island is teeming with vibrant marine life, making it a popular spot for underwater enthusiasts to explore.
+      Nature lovers will appreciate Basul Island's unspoiled landscapes and rich biodiversity. The island is home to diverse flora and fauna, including coconut palms, mangrove forests, and various bird species.
+      Visitors can embark on nature walks, birdwatching expeditions, and eco-tours to discover the island's natural treasures.</p>
+  </div>
+  </div>
+  
+  <div class="card">
+    <img src="bao.jpg" alt="image">
+    <div class="card__content">
+      <p class="card__title">Bao-bao Falls</p>
+      <p class="card__description">Bao-bao is surrounded by verdant forests teeming with diverse flora and fauna, adding to the beauty and tranquility of the natural surroundings. Visitors can also explore 
+	  nearby hiking trails, picnic areas, and viewpoints offering panoramic vistas of the waterfall and its surrounding landscape. Visitors to Bao-bao can enjoy various activities and experiences, including
+	  swimming in the pool at the base of the falls, riding bamboo rafts to get closer to the cascades, and taking a refreshing shower under the waterfall's cascading waters. Adventurous travelers can also hike to 
+	  the upper tiers of the falls, where smaller cascades and natural pools await exploration.</p>
+  </div>
+  </div>
+  <div class="card">
+    <img src="silop.jpg" alt="image">
+    <div class="card__content">
+      <p class="card__title">Silop Cave</p>
+      <p class="card__description">Silop Cave is a unique geological formation characterized by its underground river system, stunning limestone formations, and crystal-clear pools. The cave is accessible 
+	  via a short hike through the jungle, offering visitors a chance to immerse themselves in the island's lush tropical landscapes. Once inside the cave, visitors can marvel at the intricate stalactites 
+	  and stalagmites that adorn the caverns, formed over thousands of years by the slow drip of mineral-rich water. The underground river that flows through the cave creates a serene atmosphere, with the
+	  sound of flowing water echoing off the cave walls. Silop Cave offers a memorable and immersive experience for travelers seeking to discover the hidden treasures of Siargao Island. It is a testament to 
+	  the island's natural beauty and rich biodiversity, showcasing the wonders of its underground world.</p>
+  </div>
+  </div>
+  
+  <div class="card">
+    <img src="libu.jpg" alt="image">
+    <div class="card__content">
+      <p class="card__title">Libuacan Cold Spring</p>
+      <p class="card__description">Libuacan Cold Spring is a refreshing natural attraction located in the municipality of Pilar on Siargao Island, Philippines. Renowned for its crystal-clear waters and 
+	  invigorating ambiance, Libuacan Cold Spring is a popular destination for both locals and tourists seeking respite from the tropical heat. The spring's pristine waters flow into a series of shallow
+	  pools, creating a picturesque setting surrounded by tropical foliage and limestone formations. Visitors can wade into the pools, swim, or simply relax and soak up the natural beauty of the surroundings.
+      Libuacan Cold Spring is also a favorite spot for picnics and gatherings, with shaded areas and picnic tables available for visitors to enjoy a leisurely meal or snack amidst the tranquil ambiance of the spring.</p>
+  </div>
+  </div>
+  
+  <div class="card">
+    <img src="bou.jpg" alt="image">
+    <div class="card__content">
+      <p class="card__title">Surigao City Boulevard</p>
+      <p class="card__description">Surigao City Boulevard serves as a hub for recreational activities and social gatherings, with open spaces for picnics, outdoor events, and cultural performances. 
+	  It is a favorite spot for families, friends, and couples to gather and enjoy quality time together amidst the scenic beauty of the coastline. At night, the boulevard comes alive with colorful
+	  lights and vibrant activity. Street vendors set up stalls selling local snacks, refreshments, and souvenirs, adding to the bustling atmosphere of the area. Visitors can also enjoy the mesmerizing 
+	  sight of the sunset over the horizon, painting the sky with hues of orange and pink. Surigao City Boulevard is not only a place for relaxation and recreation but also a cultural and historical landmark. 
+	  It features monuments, statues, and markers commemorating significant events and personalities in Surigao's history, including national hero Jose Rizal.</p>
+  </div>
+  </div>
+  
+  <div class="card">
+    <img src="looc.jpg" alt="image">
+    <div class="card__content">
+      <p class="card__title">Looc Beach</p>
+      <p class="card__description">Looc Beach is also a haven for water sports enthusiasts, offering opportunities for swimming, snorkeling, kayaking, and paddleboarding. The calm and shallow waters of the
+	  bay provide a safe and enjoyable environment for aquatic activities, making it suitable for visitors of all ages and skill levels. Nature lovers will appreciate the rich biodiversity surrounding Looc Beach,
+	  with lush mangrove forests and vibrant coral reefs teeming with marine life. Exploring the underwater world reveals a kaleidoscope of colors, with colorful fish, coral formations, and other marine creatures thriving in the bay's pristine waters.</p>
+  </div>
+  </div>
+  
+   <div class="card">
+    <img src="tinu.jpg" alt="image">
+    <div class="card__content">
+      <p class="card__title">Tinuy-an Falls</p>
+      <p class="card__description">Tinuy-an Falls is surrounded by verdant forests teeming with diverse flora and fauna, adding to the beauty and tranquility of the natural surroundings. Visitors can also explore 
+	  nearby hiking trails, picnic areas, and viewpoints offering panoramic vistas of the waterfall and its surrounding landscape. Visitors to Tinuy-an Falls can enjoy various activities and experiences, including
+	  swimming in the pool at the base of the falls, riding bamboo rafts to get closer to the cascades, and taking a refreshing shower under the waterfall's cascading waters. Adventurous travelers can also hike to 
+	  the upper tiers of the falls, where smaller cascades and natural pools await exploration.</p>
+  </div>
+</div>
+</div>
+
+
+
+<footer>
+    <div class="containers">
+        <p>&copy; 2024 Surigao City </p>
+    </div>
+	<!-- Bootstrap CSS and JavaScript -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+</footer>
+
+
+</body>
+</html>
